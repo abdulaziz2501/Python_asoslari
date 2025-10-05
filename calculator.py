@@ -113,7 +113,6 @@ class Kalkulyator:
     def hisoblash(self):
         try:
             ifoda = self.natija_var.get()
-            # Xavfsizlik uchun eval o'rniga matematik amallarni tekshirish
             if any(char in ifoda for char in ['+', '-', '*', '/']):
                 natija = eval(ifoda)
                 self.natija_var.set(str(natija))
