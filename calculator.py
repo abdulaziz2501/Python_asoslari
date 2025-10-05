@@ -130,4 +130,5 @@ class Kalkulyator:
 # Dasturni ishga tushirish
 if __name__ == "__main__":
     kalkulyator = Kalkulyator()
+
     kalkulyator.ishga_tushirish()
